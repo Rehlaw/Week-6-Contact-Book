@@ -113,8 +113,8 @@ function displayContacts(contacts) {
                     </div>
 
                     <div class="contact-actions">
-                        <button class="btn btn-secondary" onclick="showEditContact('${contact.id}')">✏️ Edit</button>
-                        <button class="btn btn-danger" onclick="deleteContact('${contact.id}')">🗑️ Delete</button>
+                        <button class="btn btn-secondary" onclick="showEditContact('${contact.id}')">Edit</button>
+                        <button class="btn btn-danger" onclick="deleteContact('${contact.id}')">Delete</button>
                     </div>
 
                 </div>
